@@ -176,7 +176,7 @@ norm_sample = stats.norm.rvs(size=100)
 # Use fit=False to disable the default fitting of a line to the sample data (least-squares regression).
 stats.probplot(norm_sample, plot=ax, fit=False)
 # Plot the diagonal representing the standardized normal distribution.
-ax.axline((0, 0), (1, 1), color='gray')
+ax.axline((0, 0), (1, 1), color='grey')
 
 plt.tight_layout()
 plt.show()
@@ -192,7 +192,7 @@ fig, ax = plt.subplots(figsize=(4, 4))
 # Use fit=False to disable the default fitting of a line to the sample data (least-squares regression).
 stats.probplot(nflx, plot=ax, fit=False)
 # Plot the diagonal representing the standardized normal distribution.
-ax.axline((0, 0), (1, 1), color='gray')
+ax.axline((0, 0), (1, 1), color='grey')
 
 plt.tight_layout()
 plt.show()
